@@ -1,4 +1,4 @@
-/* header */
+/* header *//* header */
 :root {
   --main-color: #10cab7;
   --white-gray: #777777;
@@ -191,6 +191,7 @@ header .container {
 .sec3 {
   display: flex;
   margin-top: 90px;
+  justify-content: center;
 }
 .serv {
   display: flex;
@@ -284,6 +285,7 @@ article div i {
 .parafol p {
   font-size: 14px;
   color: var(--white-gray);
+  max-width: 340px;
 }
 @media (max-width: 900px) {
   .cont {
@@ -450,3 +452,5 @@ footer div {
   align-items: center;
   gap: 5px;
 }
+
+
