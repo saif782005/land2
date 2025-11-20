@@ -1,4 +1,4 @@
-/* header *//* header */
+/* header */
 :root {
   --main-color: #10cab7;
   --white-gray: #777777;
@@ -271,7 +271,7 @@ article div i {
 }
 .sec4 div figure img {
   width: 340px;
-  
+  margin-left: -30px;
 }
 
 .cont {
@@ -303,15 +303,16 @@ article div i {
   justify-content: space-between;
 }
 .sec5 div {
-    width: 55%;
-    margin: 20px 60px 40px;
-    line-height: 35px;
-    font-size: 18px;
-    font-weight: 600;
+  width: 55%;
+  margin: 10% 60px 40px;
+  line-height: 35px;
+  font-size: 16px;
+  font-weight: 600;
 }
-@media(min-width:1400){
+@media(min-width:1400px){
   .sec5 div{
     font-size:22px;
+  }
 }
 .sec5 div p:last-child {
   color: var(--white-gray);
@@ -456,7 +457,6 @@ footer div {
   align-items: center;
   gap: 5px;
 }
-
 
 
 
