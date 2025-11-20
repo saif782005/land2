@@ -306,8 +306,12 @@ article div i {
     width: 55%;
     margin: 20px 60px 40px;
     line-height: 35px;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 600;
+}
+@media(min-width:1400){
+  .sec5 div{
+    font-size:22px;
 }
 .sec5 div p:last-child {
   color: var(--white-gray);
@@ -452,6 +456,7 @@ footer div {
   align-items: center;
   gap: 5px;
 }
+
 
 
 
